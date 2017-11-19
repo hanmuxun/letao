@@ -1,0 +1,48 @@
+.cz_topBar{
+  width:100%;
+  height: 45px;
+  background-color: #006699;
+  position: fixed;
+  top:0;
+  left: 0; 
+  text-align: center;
+  line-height: 45px;
+  color: #fff;  
+  z-index: 1000;
+}
+.cz_topBar a {
+   color: #fff;
+   position: absolute;
+   right: 10px;
+   top: 10px;
+   font-size: 18px;
+   padding: 3px;
+}
+
+/* footer */
+.lt-toolbar {
+  background-color: #006699;
+}
+.lt-toolbar span:first-child {
+  display: block;
+  padding-top: 5px;
+}
+
+.lt-toolbar span:last-child {
+  font-size: 11px;
+}
+
+.lt-toolbar .mui-item {
+  display: table-cell;
+  overflow: hidden;
+  width: 1%;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #fff;
+  
+}
+
+

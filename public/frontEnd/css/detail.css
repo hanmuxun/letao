@@ -1,0 +1,150 @@
+.mui-scroll p {
+  padding: 10px 5px;
+  font-size: 18px;
+  color: #000;
+  box-sizing: border-box;
+}
+
+.detail-price {
+  height: 50px; 
+  line-height: 50px;
+  padding-left: 5px;
+  box-sizing: border-box;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+
+}
+.detail-price span {
+  font-size:  14px;
+}
+.detail-price .new {
+  font-size: 24px;
+  color: red;
+  font-weight: 700;
+}
+.detail-price .old {
+  color: #ccc;
+  text-decoration: line-through;
+  font-size: 14px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.detail-size {
+  padding: 0 5px;
+  padding: 10px 5px;
+  border-bottom: 1px solid #ccc;
+}
+.detail-size span {
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.detail-num {
+  height: 50px;
+  padding: 0 5px;
+  line-height: 50px;
+}
+.detail-num span {
+  width: 28px ;
+  height: 28px;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  
+}
+.detail-num span:nth-child(2) {
+  width: 28px;
+  height: 28px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  vertical-align: middle;
+  /* border-right: none; */
+}
+.detail-num span:nth-child(3) {
+  width: 28px;
+  height: 28px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  vertical-align: middle;
+  /* border-right: none; */
+}
+
+.detail-num span:nth-child(4) {
+  width: 28px; 
+  height: 28px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.lt-toolbar {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 997;
+  padding-left: 62px;
+  border-top: 1px solid #ccc;
+  background-color: white;
+}
+  .lt-toolbar .fa-shopping-cart {
+    /* padding: 20px; */
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-size: 20px;
+    color: #fff;
+  }
+.lt-toolbar .add-cart {
+  width: 48%;
+  height: 39px;
+  /* line-height: 39px; */
+  margin-top: 5px;
+  /* float: left; */
+  border: 0;
+  background-color: #991020;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  outline: none;
+  border-radius: 2px;
+}
+.lt-toolbar .now-buy {
+  width: 48%;
+  height: 39px;
+  /* line-height: 39px; */
+  margin-top: 5px;
+  float: right;
+  margin-right: 6px;
+  background-color: #fa672d;
+  color: #fff;
+} 
+body,html {
+  background-color: #fff;
+}
+
+.lt-header {
+  background-color: #006699;
+}
+.fa-arrow-left {
+  line-height: 45px;
+  color: #fff;
+  margin-right: 10px;
+}
+.fa-home {
+  line-height: 45px;
+  color: #fff;    
+  margin-left: 10px;
+}
+
+.mui-title {
+  color: #fff;
+}

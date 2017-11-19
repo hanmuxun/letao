@@ -1,0 +1,150 @@
+
+/* top */
+
+
+.mui-slider {
+    margin-top: 45px;
+}
+.cz_cate {
+    padding: 0 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+.cz_cate a {
+    width: 33.33%;
+    float: left;
+}
+.cz_cate a img {
+    display: block;
+    width: 100%;
+}
+
+/* active */
+.cz_active {
+    margin-top: 1px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.cz_active a {
+    background-color: #fff;
+   float: left;
+} 
+，.cz_active img {
+    width: 100%;
+    vertical-align: middle;
+}
+.cz_active  a:first-child {
+    width: 33.3%;
+}
+.cz_active a:nth-child(2) {
+    width: 33.3%;  
+}
+.cz_active a:last-child {
+    width: 33.3%;
+}
+
+/* 品牌專區 */
+.lt-brand {
+    margin-top:5px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.lt-brand a {
+    float: left;
+    width:25%;
+}
+.lt-brand img {
+    width:100%;
+    vertical-align: middle;
+}
+.lt-brand a:first-child,.lt-brand a:last-child {
+    width: 100%;
+}
+
+.mui-scroll {
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+/* 運動專區 */
+.lt-sport {
+    padding: 0 15px;
+    box-sizing: border-box;
+    box-sizing: border-box;
+}
+.lt-item {
+    width: 50%;
+    float: left;
+    margin-bottom: 10px;
+}
+.lt-item  .item-wrap {
+    display: block;
+    width:100%;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.lt-item img {
+    width: 100%;
+    vertical-align: middle;
+}
+.lt-item:nth-child(odd) {
+    padding-right:5px;
+}
+.lt-item:nth-child(even) {
+    padding-left: 5px;
+}
+.lt-item p {
+    padding: 0 10px;
+    height: 36px;
+    line-height: 18px;
+    overflow: hidden;
+}
+.lt-item .price {
+    text-align: center;
+}
+.lt-item .new {
+    font-size: 12px;
+    color: red;
+}
+.lt-item .old {
+    font-size: 12px;
+    color: #ccc;
+    text-decoration: line-through;
+}
+.lt-item button {
+    margin: 10px auto;
+    background-color: #006699;
+    color:#fff;
+}
+
+
+/* 女士專區 */
+.lt-woman {
+    margin-bottom: 10px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.lt-woman img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+/* 男生專區 */
+.lt-man {
+    margin-bottom: 10px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.lt-man img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
